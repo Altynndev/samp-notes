@@ -18,17 +18,16 @@ A modern and dynamic notification system for SA-MP & open.mp based on TextDraws,
 ## 🚀 Basic Usage
 To display a notification to a player, simply use the ShowNotification function:
 
-`public OnPlayerConnect(playerid)
+public OnPlayerConnect(playerid)
 {
     ShowNotification(
         playerid, 
-        "Welcome", 
         "Thanks for joining the server!", 
-        0x33AA33FF, // Green color
+        0x33AA33FF, // Color
         5000        // Time in milliseconds (5 seconds)
     );
     return 1;
-}`
+}
 
 ## 📋 Requirements
 SA-MP 0.3.7 or higher / open.mp.
