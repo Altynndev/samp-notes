@@ -1,12 +1,13 @@
 # samp-notes
 
-A modern and dynamic notification system for SA-MP & open.mp based on TextDraws, designed to be lightweight and easy to use.
+A highly customizable, lightweight, and easy-to-use improved notification system
 
-## ✨ Features
+## 📜 Features
 - **Queue System:** Notifications won't overlap; if multiple are triggered, they will appear one after another.
 - **Customization:** Full support for titles, long messages, and custom hex colors.
 - **Auto-hide:** Integrated timer to automatically hide notifications after a set duration.
 - **Optimized:** Efficient TextDraw management to avoid hitting global limits.
+- **Dynamic structure:** Optimized for two-dimensional array structures to create custom notifications with sprites, preview models, etc... Using the "Type" parameter in the dynamic creation of the notification.
 
 ## 🛠 Installation
 1. Download the `samp-notes.inc` file.
@@ -16,10 +17,10 @@ A modern and dynamic notification system for SA-MP & open.mp based on TextDraws,
    #include <samp-notes>
 
 ## 🚀 Basic Usage
-To display a notification to a player, simply use the ShowNotification function and fill the parameters:
+To display a notification to a player, simply use the ShowPlayerNotification function and fill the parameters:
 
 ## 📋 Requirements
-SA-MP 0.3.7 or higher / open.mp.
+a_samp
 YSI-Includes (optional, recommended for efficient timers).
 
 ## 📄 Credits
